@@ -8,3 +8,5 @@
 - Magic Pod Desktopが使用する作業ディレクトリの場所を、デスクトップから変更できるようにしました。
 - Magic Pod Desktopの画面設定は、作業ディレクトリではなくAppのディレクトリで管理するようにしました。
 - Magic Pod Desktopの一部のエラーメッセージを、わかりやすく改善しました。
+
+Magic Pod Desktopの画面設定の場所を変更した関係で、以前のMagic Pod Desktopの画面上で入力したCapabilitiesなどは再度入力し直す必要があります。必要なら以前のMagic Pod Desktopの画面からコピー&ペーストしてください。
