@@ -2,7 +2,6 @@
 
 上にあるものほど優先度が高くなっています。
 
-- WebView対応
 - ANDROID_HOME関連の設定とエラー調査をやりやすく
 - プログラミング的な柔軟な処理の実現(外部API呼び出し、if文、for文等)
 - Magic Pod DesktopのUIデザイン改善
