@@ -14,7 +14,7 @@
   - 画面キャプチャに名前をつけられるようになりました。これにより、画面の識別が容易になります。
   - 画面キャプチャの表示形式を、リスト/グリッドで切り替え可能になりました。
 - テスト実行時にコマンドステップごとにログを出すようにしました。
-- 利用するAppiumのバージョンを[1.6.4Beta](https://github.com/appium/appium/blob/master/CHANGELOG.md#changes-in-version-164-beta-from-163)にしました。iOSにおけるキー入力速度の改善や、エラーメッセージ改善、各種バグ修正が行われています。
+- 利用するAppiumのバージョンを[1.6.4-beta](https://github.com/appium/appium/blob/master/CHANGELOG.md#changes-in-version-164-beta-from-163)にしました。iOSにおけるキー入力速度の改善や、エラーメッセージ改善、各種バグ修正が行われています。
 - 生成されるAppiumのロケータを、より画面変更に強いものにしました。
 
 ### バグ修正
