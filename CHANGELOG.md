@@ -1,3 +1,23 @@
+## バージョン0.4.0(2017/4/15)
+
+### 機能追加
+
+- テスト編集ページ右上のボタンから、Magic Pod Desktopを起動できるようにしました。
+- Magic Pod DesktopのUIを改善しました。
+- Magic Pod Desktopにおける画面キャプチャの取得を高速化しました。
+- Magic Pod Desktopにおいて、アプリ名を指定しなくても画面キャプチャを取得できるようになりました。これまでは、「Launch app」の際に現在のアプリがいったん終了されていましたが、終了されなくなりました。
+- Magic Pod Desktopにおける各種Capabilitiesの指定が簡単になりました。
+- Androidの現在のActivity/Packageを簡単に取得できる機能をつけました。
+- Android SDKが標準の場所にあれば、Magic Pod DesktopのANDROID_HOME環境変数設定は不要になりました。
+- テスト対象アプリのパスや環境変数定義にて、$記法で既存の環境変数を定義できるようになりました
+- 利用するAppiumのバージョンを[Appium1.6.4](https://github.com/appium/appium/releases/tag/v1.6.4)にしました。
+
+### バグ修正
+
+- アサート関連コマンドの実行が遅すぎるバグを修正しました。
+- 画像解析ロジックの細かいバグを修正しました。
+- Magic Pod Desktopが使用するConfigファイルのパスを/Users/<ユーザー名>/Library/Application Support/magic_pod_dekstop/magic_pod_config.jsonだったのでmagic_pod_desktopに修正しました。既存の設定ファイルは場所を移動する必要があります。
+
 ## バージョン0.3.0(2017/3/20)
 
 ### 機能追加
