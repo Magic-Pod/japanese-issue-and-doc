@@ -10,9 +10,9 @@
 
 ### バグ修正
 
-- テスト番号が連番になっていない不具合を修正しました。(#6)
-- ユーザー名を直接入力してProjectにMember追加できない不具合を修正しました。(#7)
-- 空の名前のユーザーをOrganizationに追加できてしまう不具合を修正しました。(#8)
+- テスト番号が連番になっていない不具合を修正しました。([#6](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/6))
+- ユーザー名を直接入力してProjectにMember追加できない不具合を修正しました。([#7](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/7))
+- 空の名前のユーザーをOrganizationに追加できてしまう不具合を修正しました。([#8](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/8))
 - テスト編集ページでテストステップを1行目に移動できない不具合を修正しました。
 - テスト編集ページの画面キャプチャ一覧で、画面キャプチャを右端に移動できない不具合を修正しました。
 
