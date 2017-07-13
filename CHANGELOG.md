@@ -1,3 +1,16 @@
+## バージョン0.8.1(2017/7/13)
+
+### 下位互換性の無い機能追加
+
+- コマンドライン実行のためのコマンドを、`<Magic Pod Desktop.app へのパス>/Contents/MacOS/command.sh`から`<Magic Pod Desktop.app へのパス>/Contents/MacOS/Magic Pod Desktop`に変更しました。
+
+### 機能追加
+
+- 利用規約とプライバシーポリシーへのリンクを追加しました。
+- Magic Pod Desktopに署名するようにしました。
+- Magic Pod Desktopのログ領域を広げられるようにしました。
+- Magic Pod Desktopのサイズを軽量化しました。
+
 ## バージョン0.8.0(2017/7/2)
 
 ### 下位互換性の無い機能追加
