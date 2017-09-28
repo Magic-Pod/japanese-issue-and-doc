@@ -2,7 +2,7 @@
 
 ### バグ修正
 
-- 絵文字を含む画面をMagic Pod Desktopでアップロードするとエラーになる不具合を修正しました。
+- 絵文字を含む画面をMagic Pod Desktopでアップロードするとエラーになる不具合を修正しました。([#27](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/27))
 
 ## バージョン0.9.0(2017/9/27)
 
