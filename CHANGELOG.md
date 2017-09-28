@@ -1,5 +1,7 @@
 ## バージョン0.9.1(2017/9/28)
 
+Magic Pod Desktopの変更はありません。
+
 ### バグ修正
 
 - 絵文字を含む画面をMagic Pod Desktopでアップロードするとエラーになる不具合を修正しました。([#27](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/27))
