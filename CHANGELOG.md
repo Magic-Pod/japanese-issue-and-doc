@@ -57,7 +57,7 @@ Magic Pod Desktopの変更はありません。
 - テスト失敗時のUIツリーの情報と画像との対応を確認できるようにしました。
 - iOS実機テストの設定で、WDAバンドルIDを指定できるようにしました。[こちら](http://www.trident-qa.com/magic-pod-ios-real-device-trouble-shooting/)の手順に従うことで、iOS実機でのテストがうまく動かない問題を回避することができます。
 - 「アイコン」の領域を認識可能にしました。
-- iOSのバージョンとして11.1を選択可能にしました。
+- iOSシミュレータのバージョンとして11.1を選択可能にしました。
 - 画像解析の速度を改善しました。
 - 利用しているAppiumのバージョンを[Appium1.7.2-beta](https://github.com/appium/appium/releases/tag/v1.7.2-beta)に変更しました。
 
