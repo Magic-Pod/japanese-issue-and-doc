@@ -2,7 +2,7 @@
 
 ### 機能追加
 
-- 「Web APIコール」のコマンドを追加しました。([#34](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/34))
+- 「[Web APIコール](http://www.trident-qa.com/magic-pod-web-api/)」のコマンドを追加しました。([#34](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/34))
 - 初回ユーザー登録時の組織・プロジェクト・テスト作成のステップを一度にまとめて行えるようにしました。
 - iOSシミュレータのバージョンとして11.2を選択可能にしました。
 - 画像解析ロジックの「アイコン」領域の検出精度を改善しました。
