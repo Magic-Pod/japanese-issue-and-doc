@@ -234,8 +234,8 @@ Magic Pod Desktopの変更はありません。
 
 ### 機能追加
 
-- 「(共有ステップ)[https://www.trident-qa.com/magic-pod-shared-step/]」の機能を追加しました。
-- 「(条件分岐)[http://www.trident-qa.com/magic-pod-conditional-branch/]」の機能を追加しました。(「...場合」のコマンドと「条件分岐終わり」のコマンドをセットで使う必要があります)
+- 「[共有ステップ](https://www.trident-qa.com/magic-pod-shared-step)」の機能を追加しました。
+- 「[条件分岐](http://www.trident-qa.com/magic-pod-conditional-branch)」の機能を追加しました。(「...場合」のコマンドと「条件分岐終わり」のコマンドをセットで使う必要があります)
 - アサート・待機のコマンドが失敗した場合にUIのロケータ情報をエラーメッセージに含めるようにしました。
 - アサート・待機のテキスト一致/含むチェックでは、不一致の場合にさらに子要素も見るようにしました。
 - 端末への接続の際に、Androidのバージョンが4.2未満の場合はエラーを出すようにしました。([#33](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/33))
