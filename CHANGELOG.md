@@ -10,7 +10,7 @@
 - ホーム画面の内容を、ユーザーアクティビティ一ではなく、ユーザーのメイン画面の内容と同じに変更しました。
 - テスト失敗時の各種メッセージの内容を改善しました。
 - テスト中にUI要素が指定されていない行・削除されたUI要素を参照している行があった場合のエラーメッセージを改善しました。([#76](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/76))
-- magic_pod_config.jsonのauthTokenFilePathのエントリで、Magic Pod Desktopの認証情報の保存場所を変更できるようになりました。
+- magic_pod_config.jsonのauthTokenFilePathのエントリで、Magic Pod Desktopの認証情報の保存場所を変更できるようになりました。([参考](https://www.trident-qa.com/magic-pod-batch-test-run#sec2_1))
 - Magic Pod Desktopが生成するデフォルトのmagic_pod_config.jsonに、余計な内部項目を含めないようにしました。
 - iOSシミュレータのバージョンとして11.4を選択可能にしました。
 - テスト実行時にMagic Pod Desktopができるだけ余計な一時ファイルを作成しないようにしました。
