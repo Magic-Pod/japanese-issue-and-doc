@@ -2,6 +2,8 @@
 
 Magic Pod Desktopの変更はありません。
 
+### 機能追加
+
 - テスト一覧で、テストの表示順と実行順を変更できるようになりました。([#16](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/16))
 - テスト編集画面・テスト一括実行画面の細かい改善を行いました。
 - aiロケータの細かい改善を行いました。
