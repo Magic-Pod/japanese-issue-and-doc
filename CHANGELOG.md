@@ -3,7 +3,7 @@
 ### 機能追加
 
 - テストの一括実行結果一覧ページに、テストを実行した端末名・iOSバージョンなどのラベルが表示されるようになりました。
-- 「スワイプ」コマンドのパラメータで「圧力」を指定できるようになりました。
+- 「スワイプ」コマンドのパラメータで「圧力」を指定できるようになりました。([#93](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/93))
 - Remote TestKitのテスト結果ページでAppiumコンソールの出力内容を確認できるようになりました。
   - Androidのみ対応しています。(iOSのAppiumコンソール出力の取得は、Remote TestKit側が未対応のため)
 - テスト編集画面のUIの細かい改善を行いました。 ([#107](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/107), [#96](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/96))
