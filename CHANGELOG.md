@@ -102,7 +102,6 @@ Magic Pod Desktopの変更はありません。
 - iOS12.2に対応しました。(ローカルPC実行)
 - 利用するAppiumのバージョンを[1.12.1](https://github.com/appium/appium/releases/tag/v1.12.1)にしました。
 - UIまわりの各種改善を行いました。
-- テスト編集画面でUI画像の表示サイズを変更できるようになりました。
 
 ### 不具合修正
 
