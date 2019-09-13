@@ -3,7 +3,7 @@
 ### 機能追加
 
 - 独自定義したロケータの値内で${1}のように書くことで、コマンドからロケータのパラメータを簡単に指定できるようになりました。
-- BrowserStackを使った一括テスト実行が可能になりました。
+- [BrowserStack](https://www.browserstack.com/)を使った一括テスト実行が可能になりました。
 - HeadSpinを使った一括テスト実行がWeb APIからも可能になりました。
 - 現在開発中のAndroidの「新バージョンの実行エンジン」を、テスト対象指定パネル上で選べるようになりました。
   - Espresso DriverとUiAutomator2 Driverを併用しています。
