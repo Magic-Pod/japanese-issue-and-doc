@@ -1,3 +1,12 @@
+## バージョン0.37.0(2019/10/2)
+
+### 機能追加
+
+- 利用するAppiumのバージョンを[1.15.0](https://github.com/appium/appium/releases/tag/v1.15.0)にしました。
+- ローカルPCのiOSシミュレータに13.0/13.1とiPhone 11シリーズを指定可能になりました。
+- Xcode11.1に対応しました。
+  - ただしXcode11でiOS12以前の実機を「ローカルPC」テストで使うと、「[テキスト入力がうまくいかない](https://github.com/appium/appium/issues/13288)」「[テキストの値が不正になる](https://github.com/appium/appium/issues/13302)」という問題があります。Xcode10.3を利用すれば問題は回避できます。
+  
 ## バージョン0.36.0(2019/9/28)
 
 ### 機能追加
