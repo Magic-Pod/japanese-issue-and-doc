@@ -1,10 +1,18 @@
 ## バージョン0.37.0(2019/10/2)
 
+### 既知の問題と回避策
+
+Xcode11でiOS12以前のシミュレータ/実機で「ローカルPC」テストを行うと、「初期表示テキストのあるテキスト入力欄」に対し以下の問題がおきます。
+
+- テキスト入力の際に、既存のテキストがクリアされず追記されてしまう。([原因](https://github.com/appium/appium/issues/13288))
+ - 正しいテキストの値が取得できない。([原因](https://github.com/appium/appium/issues/13302))
+
+こちらはXcodeの問題で現状有効な回避策がありません。問題を回避したい場合は、iOS12以前のテストにはXcode10.3をご利用ください。少し面倒ですが、[こちら](https://www.trident-qa.com/magic-pod-frequent-troubles/#switch_multi_xcodes)の手順に従えば、複数バージョンのXcodeをPCにインストールして切り替えて使うことも可能です。
+
 ### 機能追加
 
 - 利用するAppiumのバージョンを[1.15.0](https://github.com/appium/appium/releases/tag/v1.15.0)にしました。
   - Xcode11、iOS13、iPhone11を使ったローカルPCテストが可能になりました。
-  - ただしXcode11でiOS12以前の実機を「ローカルPC」テストで使うと、「[テキスト入力がうまくいかない](https://github.com/appium/appium/issues/13288)」「[テキストの値が不正になる](https://github.com/appium/appium/issues/13302)」という問題があります(シミュレータは問題ありません)。問題を回避したい場合はXcode10.3をご利用ください。
 
 ## バージョン0.36.0(2019/9/28)
 
