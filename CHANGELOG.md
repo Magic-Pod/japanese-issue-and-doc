@@ -6,7 +6,6 @@ Xcode11でiOS12以前のシミュレータ/実機で「ローカルPC」テス�
 
 - 正しいテキストの値が取得できない。([原因](https://github.com/appium/appium/issues/13302))
 - テキスト入力の際に、既存のテキストがクリアされず追記されてしまう。([原因](https://github.com/appium/appium/issues/13288))
-- 「ピッカー値入力」のコマンドが動作しない。(ピッカーの値を取得できないことが原因)
 
 こちらはXcodeの問題で現状有効な回避策がありません。問題を回避したい場合は、iOS12以前のテストにはXcode10.3をご利用ください。少し面倒ですが、[こちら](https://www.trident-qa.com/magic-pod-frequent-troubles/#switch_multi_xcodes)の手順に従えば、複数バージョンのXcodeをPCにインストールして切り替えて使うことも可能です。
 
