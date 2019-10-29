@@ -4,6 +4,7 @@
 
 - 複数のテスト一括実行設定を作成できるようになりました。
 - 外部クラウドサービスの一括テスト実行設定に対し、画面から複数の「端末パターン」を追加できるようになりました。
+- Magic Podが提供するAndroidのクラウドエミュレータを使って、テストの一括実行が可能になりました。(有料プランのみ)
 - SauceLabsのiOS/Androidテスト、BrowserStackのAndroidテストで使用するAppiumのバージョンを[1.15.0](https://github.com/appium/appium/releases/tag/v1.15.0)にしました。
 - テスト編集画面の細かい改善を行いました。
 
