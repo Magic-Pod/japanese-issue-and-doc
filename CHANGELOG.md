@@ -2,7 +2,7 @@
 
 ### 機能追加
 
-- Web APIをより簡単にコマンドラインから実行できる、magic-pod-api-clientを用意しました。
+- Web APIをより簡単にコマンドラインから実行できる、[magic-pod-api-client](https://www.trident-qa.com/magic-pod-batch-test-run/#sec3_1)を用意しました。
 - 一括テスト実行画面にて、magic-pod-api-client形式で設定をコピーできるようにしました。
 - ローカルPCのiOSシミュレータでも、「端末の言語」「端末の地域」を設定可能になりました。
 - ローカルPCのiOSシミュレータのバージョンに13.2を指定可能になりました。
