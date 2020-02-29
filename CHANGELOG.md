@@ -23,7 +23,7 @@
 - Magic Pod Desktopからテストを実行した場合に、[特別な変数](https://www.trident-qa.com/magic-pod-variable/#sepcial_vars)を利用できない不具合を修正しました。
 - 一部のプランで設定されているプロジェクト数上限制限がうまく動作していない不具合を修正しました。
 - ファイルサイズが大きなアプリのアップロードに失敗するようになっていたので修正しました。
-- magic_pod_config.jsonでexternalAppiumをtrueすると、iOSのテストで要素が何も見つからなくなっていたので修正しました。
+- magic_pod_config.jsonでexternalAppiumをtrueにすると、iOSのテストで要素が何も見つからなくなっていたので修正しました。
 
 ## バージョン0.47.0(2020/2/15)
 
