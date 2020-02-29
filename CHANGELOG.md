@@ -11,6 +11,8 @@
 - テスト編集画面で追加したロケータが、UIの上書きアップロードをした後も引き継がれるようになりました。
 - プロジェクトやテストの複製機能の速度を改善しました。
 - BrowserStackのAndroidテストで使用するAppiumのバージョンを[1.16.0](https://github.com/appium/appium/releases/tag/v1.16.0)にしました。
+- 「テストケース番号」がBitrise Step側からも指定可能になりました。
+  - Bitrise Stepの指定バージョンを0.47.1以上にする必要があります。
 - 「アプリを起動」のオプションで、「初回のみプロセス再起動」を選べるようになりました。([#141](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/141))
   - BrowserStack以外の環境でご利用いただけます。
 
