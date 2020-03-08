@@ -2,7 +2,7 @@
 
 ### 下位互換性のない機能追加
 
-- magic-pod-api-clientのバージョンは[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)で、自動修復が発生した場合に返り値2を返すようになりました。
+- magic-pod-api-clientのバージョン[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)で、自動修復が発生した場合に返り値2を返すようになりました。
 
 ### 機能追加
 
