@@ -802,4 +802,4 @@ Magic Pod Desktopの変更はありません。
 - Remote TestKitテスト実行用のAPKファイルをアップロードした状態でプロジェクトを複製するとエラーになる不具合を修正しました。(商用サポートユーザーのみ)
 - 多言語定義の取り込みで定義ファイルにエラーがあるとデータ不整合になる不具合を修正しました。(商用サポートユーザーのみ)
 
-[さらに古いCHANGELOGを見る](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/CHANGELOG_OLD.md)
+[もっと古いCHANGELOGを見る](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/CHANGELOG_OLD.md)
