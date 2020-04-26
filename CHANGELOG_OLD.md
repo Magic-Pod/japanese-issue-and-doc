@@ -1,3 +1,5 @@
+[もっと新しいCHANGELOGを見る](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/CHANGELOG.md)
+
 ## バージョン0.21.0(2018/10/31)
 
 ### 機能追加
