@@ -19,9 +19,9 @@
 - ブラウザの「戻る」ボタンを使ってテスト・共有ステップ編集画面に戻ると、古いテストケースが表示される問題を修正しました。([#145](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/145))
 - テスト実行中に組織・プロジェクト名を変更するとテストが終了しなくなる不具合を修正しました。([#171](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/171))
 - iOSの特定の画面でUIアップロードに失敗する不具合を修正しました。([#159](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/159))
+- iPhone専用のiOSアプリに対するテストをiPad上で実行すると、一部のコマンドが正常に動作しない不具合を修正しました。
 - SauceLabs上でのテスト実行が動作しなくなっていたので修正しました。
   - SauceLabsの不具合が原因です。
-- iPhone専用のiOSアプリに対するテストをiPad上で実行すると、一部のコマンドが正常に動作しない不具合を修正しました。
 
 ## バージョン0.51.0(2020/4/12)
 
