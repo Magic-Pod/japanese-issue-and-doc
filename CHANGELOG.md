@@ -2,14 +2,14 @@
 
 ### 機能追加
 
-- iOSクラウド端末のテスト作成時にも機種を選べるようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))
-- iOSクラウド端末でバージョン13.4と12.4を選べるようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))　
-- Androidクラウド端末で選べる機種が増えました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))
+- iOSクラウド端末のテスト作成時にも機種を選べるようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))(モバイルアプリテスト)
+- iOSクラウド端末でバージョン13.4と12.4を選べるようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))(モバイルアプリテスト)　
+- Androidクラウド端末で選べる機種が増えました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))(モバイルアプリテスト)
   - 高速起動する機種は「Pixel 3」になりました。
 - テスト結果画面からテスト結果について問い合わせる場合に、Appium/Seleniumログ、失敗時画面キャプチャ、失敗時UIツリーの添付内容を確認・上書き・削除できるようになりました。
 - テスト結果画面の細かい改善を行いました。([#145](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/145))
 - 自動修復の各種精度改善を行いました。
-- 利用しているAppiumのバージョンを更新しました。
+- 利用しているAppiumのバージョンを更新しました。(モバイルアプリテスト)
   - BrowserStack: Androidを[1.17.0](https://github.com/appium/appium/releases/tag/v1.17.0)に更新しました。
   - RemoteTestKit: Androidを[1.16.0](https://github.com/appium/appium/releases/tag/v1.16.0)に更新しました。
   - SaucewLabs: [1.17.0](https://github.com/appium/appium/releases/tag/v1.17.0)に更新しました。
@@ -18,9 +18,9 @@
 
 - ブラウザの「戻る」ボタンを使ってテスト・共有ステップ編集画面に戻ると、古いテストケースが表示される問題を修正しました。([#145](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/145))
 - テスト実行中に組織・プロジェクト名を変更するとテストが終了しなくなる不具合を修正しました。([#171](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/171))
-- iOSの特定の画面でUIアップロードに失敗する不具合を修正しました。([#159](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/159))
-- iPhone専用のiOSアプリに対するテストをiPad上で実行すると、一部のコマンドが正常に動作しない不具合を修正しました。
-- SauceLabs上でのテスト実行が動作しなくなっていたので修正しました。
+- iOSの特定の画面でUIアップロードに失敗する不具合を修正しました。([#159](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/159))(モバイルアプリテスト)
+- iPhone専用のiOSアプリに対するテストをiPad上で実行すると、一部のコマンドが正常に動作しない不具合を修正しました。(モバイルアプリテスト)
+- SauceLabs上でのテスト実行が動作しなくなっていたので修正しました。(モバイルアプリテスト)
   - SauceLabsの不具合が原因です。
 
 ## バージョン0.51.0(2020/4/12)
