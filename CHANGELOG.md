@@ -11,7 +11,7 @@
 - `New` Web APIのcross-batch-runとmagic-pod-api-clientのbatch-runで、テスト設定の番号を指定してテスト実行可能になりました。
   - Web APIから実行する設定を画面側で管理できます。
   - test settings numberとtest settingsの両方を指定すれば、番号の設定を利用しつつ、さらにその一部だけを変更して実行することもできます。
-  - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)ですが、リリースまで少々お待ちください。
+  - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)を利用してください。
 - `New` [ヘルプページ](https://www.trident-qa.com/magic-pod-help/)の読み込み速度を大幅に改善しました。
 - `New` テスト結果画面の表示を改善しました。([#172](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/172))
 - `New` テスト編集画面の表示を改善しました。([#165](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/165))
@@ -136,7 +136,7 @@
 ### 機能追加
 
 - テスト設定ポップアップおよびWeb APIで、「共有変数」を指定できるようになりました。([#38](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/38))
-  - Web APIの「credentials」パラメータは非推奨となったので、「shared_variables」をご利用ください。
+  - Web APIの「credentials」パラメータは非推奨となったので、「shared_variables」を利用してください。
 - テスト実行中でも、完了したステップまでの画面キャプチャをテスト結果画面で確認できるようになりました。
   - ページのリロードは自動では行われません。
 - 要素が見つからない場合の自動修復が、iframeとWebView内の要素に対しても行われるようになりました。
