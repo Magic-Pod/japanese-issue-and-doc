@@ -12,7 +12,7 @@
   - Web APIから実行する設定を画面側で管理できます。
   - test settings numberとtest settingsの両方を指定すれば、番号の設定を利用しつつ、さらにその一部だけを変更して実行することもできます。
   - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)にしてご利用ください。
-- `New` ヘルプページの読み込み速度を大幅に改善しました。
+- `New` [ヘルプページ](https://www.trident-qa.com/magic-pod-help/)の読み込み速度を大幅に改善しました。
 - `New` テスト結果画面の表示を改善しました。([#172](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/172))
 - `New` テスト編集画面の表示を改善しました。([#165](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/165))
 - `Fix` プロジェクト内に同じ名前のUIが複数あると、テスト一括実行が失敗することがあったので修正しました。
