@@ -8,7 +8,7 @@
 ### 全般
 
 - `New` テスト編集画面で「コメント」と「空行」を指定可能になりました。([#19](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/19))
-- `New` cross-batch-runのWeb APIおよびmagic-pod-api-clientのbatch-runで、テスト設定の番号を指定してテスト実行可能になりました。
+- `New` Web APIのcross-batch-runとmagic-pod-api-clientのbatch-runで、テスト設定の番号を指定してテスト実行可能になりました。
   - Web APIから実行する設定を画面側で管理できます。
   - test settings numberとtest settingsの両方を指定すれば、番号の設定を利用しつつ、さらにその一部だけを変更して実行することもできます。
   - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)にしてご利用ください。
