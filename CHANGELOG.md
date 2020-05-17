@@ -175,7 +175,7 @@
 - テスト実行時に要素が見つからない場合に、可能な時には要素のロケータの自動修復が行われるようになりました。
   - 現在は、テスト一括実行をした場合に限り発動します。
   - テスト結果画面で修復内容を承認することで、ロケータの変更内容が保存されます。
-  - magic-pod-api-clientのバージョンは[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)にしてご利用ください。
+  - magic-pod-api-clientのバージョンは[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)を利用してください。
 - テスト編集画面の右クリックメニューから、行の途中にコマンドを追加できるようになりました。([#44](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/44))
 - テスト編集画面の要素/UIのドラッグ&ドロップやUI一覧エリアの使い勝手を改善しました。
 - テスト編集画面で追加したロケータが、UIの上書きアップロードをした後も引き継がれるようになりました。
@@ -184,7 +184,7 @@
 - 「テストケース番号」がBitrise Step側からも指定可能になりました。
   - Bitrise Stepの指定バージョンを0.47.1以上にする必要があります。
 - 「アプリを起動」のオプションで、「初回のみプロセス再起動」を選べるようになりました。([#141](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/141))
-  - BrowserStack以外の環境でご利用いただけます。
+  - BrowserStack以外の環境で利用できます。
 
 ### 不具合修正
 
@@ -422,7 +422,7 @@ Xcode11でiOS12以前のシミュレータ/実機で「ローカルPC」テス�
 - 正しいテキストの値が取得できない。([原因](https://github.com/appium/appium/issues/13302))
 - テキスト入力の際に、既存のテキストがクリアされず追記されてしまう。([原因](https://github.com/appium/appium/issues/13288))
 
-こちらはXcodeの問題で現状有効な回避策がありません。問題を回避したい場合は、iOS12以前のテストにはXcode10.3をご利用ください。少し面倒ですが、[こちら](https://www.trident-qa.com/magic-pod-frequent-troubles/#switch_multi_xcodes)の手順に従えば、複数バージョンのXcodeをPCにインストールして切り替えて使うことも可能です。
+こちらはXcodeの問題で現状有効な回避策がありません。問題を回避したい場合は、iOS12以前のテストにはXcode10.3を利用してください。少し面倒ですが、[こちら](https://www.trident-qa.com/magic-pod-frequent-troubles/#switch_multi_xcodes)の手順に従えば、複数バージョンのXcodeをPCにインストールして切り替えて使うことも可能です。
 
 ### 機能追加
 
