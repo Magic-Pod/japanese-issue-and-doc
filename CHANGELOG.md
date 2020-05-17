@@ -12,9 +12,9 @@
   - Web APIから実行する設定を画面側で管理できます。
   - test settings numberとtest settingsの両方を指定すれば、番号の設定を利用しつつ、さらにその一部だけを変更して実行することもできます。
   - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)にしてご利用ください。
-- `New` テスト結果画面で、共有ステップの内容を展開しなくてもパラメータの内容を確認できるようになりました。
-- `New` テスト編集画面で、共有ステップ内部に削除された要素を参照している行がある場合、共有ステップを呼び出している行も赤色になるようにしました。
 - `New` ヘルプページの読み込み速度を大幅に改善しました。
+- `New` テスト結果画面の表示を改善しました。([#172](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/172))
+- `New` テスト編集画面の表示を改善しました。([#165](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/165))
 - `Fix` プロジェクト内に同じ名前のUIが複数あると、テスト一括実行が失敗することがあったので修正しました。
 - `Fix` 共有変数の値に「&」が含まれているとMagic Pod Desktopのエラーが発生する不具合を修正しました。
 - `Fix` テスト結果に関する問い合わせが失敗するようになっていたケースがあったので修正しました。
