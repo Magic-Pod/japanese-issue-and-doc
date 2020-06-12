@@ -44,10 +44,10 @@
 ### 全般
 
 - `New` テスト編集画面で「コメント」と「空行」を指定可能になりました。([#19](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/19))
-- `New` Web APIのcross-batch-runとmagic-pod-api-clientのbatch-runで、テスト設定の番号を指定してテスト実行可能になりました。
+- `New` Web APIのcross-batch-runと[magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のbatch-runで、テスト設定の番号を指定してテスト実行可能になりました。
   - Web APIから実行する設定を画面側で管理できます。
   - test settings numberとtest settingsの両方を指定すれば、番号の設定を利用しつつ、さらにその一部だけを変更して実行することもできます。
-  - magic-pod-api-clientのバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)を利用してください。
+  - [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョンは[0.53.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.53.0.1)を利用してください。
 - `New` [ヘルプページ](https://www.trident-qa.com/magic-pod-help/)の読み込み速度を大幅に改善しました。
 - `New` テスト結果画面の表示を改善しました。([#172](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/172))
 - `New` テスト編集画面の表示を改善しました。([#165](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/165))
@@ -110,7 +110,7 @@
   - 複製に時間がかかると画面表示がサーバーエラーになる不具合も合わせ修正されています。
 - テスト失敗時のロケータ自動修復において、その要素が使われている全てのテストの動作を確認できていない場合には、注意を促すメッセージを出すようにしました。
 - 自動修復の各種精度改善を行いました。
-- magic-pod-api-clientのバージョン[0.50.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.50.0.1)で、HTTPヘッダを指定する「--http_headers」オプションを指定可能になりました。
+- [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョン[0.50.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.50.0.1)で、HTTPヘッダを指定する「--http_headers」オプションを指定可能になりました。
 - 多言語データパターンとデータパターンのCSVの推奨エンコードはUTF-8になりました。
 - テスト実行後に、そのテストに使用したクラウドアップロードアプリを削除しても、テスト結果画面では引き続きアプリの情報が見られるようになりました。(モバイルアプリテスト)([#169](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/169))
 - WebViewテストに関連した各種メッセージを改善しました。(モバイルアプリテスト)
@@ -202,14 +202,14 @@
 
 ### 下位互換性のない機能追加
 
-- magic-pod-api-clientのバージョン[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)で、自動修復が発生した場合に返り値2を返すようになりました。
+- [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョン[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)で、自動修復が発生した場合に返り値2を返すようになりました。
 
 ### 機能追加
 
 - テスト実行時に要素が見つからない場合に、可能な時には要素のロケータの自動修復が行われるようになりました。
   - 現在は、テスト一括実行をした場合に限り発動します。
   - テスト結果画面で修復内容を承認することで、ロケータの変更内容が保存されます。
-  - magic-pod-api-clientのバージョンは[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)を利用してください。
+  - [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョンは[0.47.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.47.0.1)を利用してください。
 - テスト編集画面の右クリックメニューから、行の途中にコマンドを追加できるようになりました。([#44](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/44))
 - テスト編集画面の要素/UIのドラッグ&ドロップやUI一覧エリアの使い勝手を改善しました。
 - テスト編集画面で追加したロケータが、UIの上書きアップロードをした後も引き継がれるようになりました。
@@ -239,8 +239,8 @@
 - 「変数の値」が「一致するか」「一致しないか」「含むか」「含まないか」の「確認」「場合」コマンドを追加しました。([#130](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/130))
 - テストケースの複製機能を追加しました。([#124](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/124))
 - 「固定値を保存」のコマンドの値に、別の変数を含められるようになりました。
-- magic-pod-api-clientにdelete-appのコマンドを追加しました。
-  - magic-pod-api-clientのバージョン[0.46.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.46.0.1)をインストールする必要があります。
+- [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)にdelete-appのコマンドを追加しました。
+  - [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョン[0.46.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.46.0.1)をインストールする必要があります。
 - テスト編集画面でUI要素に追加したロケータが、すぐに自動的に使用されるようになりました。
 - 1つのテストがタイムアウトするまでの時間が、テストの長さに応じて変わるようになりました。
 - テスト編集画面の各種改善を行いました。
@@ -301,8 +301,8 @@
 - 「テスト一括実行」設定の、「外部クラウドサービス」の「アクセスキー」「アクセストークン」「TestObject APIキー」の値が保存されるようになりました。
   - 暗号化して保存されます。
 - 「テスト一括実行」の設定にて、「クラウド」の環境に対しても「端末パターンを追加」が可能になりました。
-- magic-pod-api-clientから複数端末パターンを使った一括実行を行えるようになりました。
-  - magic-pod-api-clientの[バージョン0.45.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.45.0.1)をインストールする必要があります。
+- [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)から複数端末パターンを使った一括実行を行えるようになりました。
+  - [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)の[バージョン0.45.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.45.0.1)をインストールする必要があります。
 - cross-batch-runのWeb APIの返り値として各種テスト情報が返るようになりました。
 - iOS12シミュレータでも「WebView要素をHTMLとしてスキャンする」設定が利用可能になりました。
 - 「クラウド」の環境でもAndroidの「WebView要素をHTMLとしてスキャンする」設定が利用可能になりました。
