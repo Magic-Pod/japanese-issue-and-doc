@@ -6,7 +6,7 @@
 - `New` テスト結果画面のAppium/Seleniumログを見やすくしました。
 - `New` テスト結果画面のAppium/Seleniumログをクリップボードにコピーできるようになりました。
 - `New` 直近のテスト結果をWeb APIで取得可能になりました。
-- `New` [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョン[0.55.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.55.0.1)で、直近のテスト結果取得と画面キャプチャのダウンロードが可能になりました。
+- `New` [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のバージョン[0.55.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.55.0.1)で、最新の一括テスト実行番号取得と画面キャプチャのダウンロードが可能になりました。
 - `Fix` テスト失敗時の自動修復に失敗することがある不具合を修正しました。
 
 ### モバイルアプリテスト
