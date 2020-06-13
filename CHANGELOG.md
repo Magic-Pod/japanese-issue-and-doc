@@ -18,7 +18,7 @@
   - 従来の「Magic Pod UI test」ステップは今後非推奨になります。
 - `New` iOSクラウドシミュレータのバージョンに「11.4」を追加しました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))
 - `New` 「他のアプリを起動」コマンドを追加しました。(外部クラウドサービス上でのiOSテストには未対応です)([#177](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/177))
-- `New` Android5、6のクラウドエミュレータでもWebViewのテストが動作するようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))
+- `New` Android5、6のクラウドエミュレータでもWebViewのテストが動作するようになりました。([#139](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/139))
 - `New` モバイルアプリテストの無料プランで利用できるクラウド端末の初月利用時間を10時間に増やしました。
 - `New` SauceLabsで使用するAppiumのバージョンを[1.17.1](https://github.com/appium/appium/releases/tag/v1.17.1)にしました。
 
