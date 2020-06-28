@@ -1,3 +1,29 @@
+## バージョン0.56.0(2020/6/28)
+
+### 下位互換性のない変更
+
+### 全般
+
+- `New` [四則演算](https://github.com/Magic-Pod/japanese-issue-and-doc/wiki/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E4%B8%80%E8%A6%A7)コマンドを追加しました。([#164](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/164))
+- `New` SauceLabs/BrowserStack側のテスト結果ページで、対応するMagic Podのプロジェクト名/一括実行番号/テスト名を確認できるようになりました。
+- `New` 特別な変数として、現在の実行環境を表す[ENVIRONMENT](https://www.trident-qa.com/magic-pod-variable/#sepcial_vars)が利用可能になりました。 
+- `New` UI解析の速度を改善しました。
+- `New` magic_pod_config.json上で、Magic Pod Desktopが利用する[プロキシ情報](https://www.trident-qa.com/magic-pod-proxy/)を指定可能になりました。
+  - proxyServerUrl、proxyServerAuthType、proxyServerAuthUser、proxyServerAuthPasswordが指定できます。
+- `New` 「日時保存」コマンドのコマンド名を「日付計算」に変更し、「システム」のタブに移動しました。
+- `New` ユーザー新規登録の際に、モバイルアプリテストのスタンダードプラン1ヶ月無料トライアルが申し込み可能になりました。
+- `New` 組織のプランページにて、テストケース数150を選択可能になりました。
+- `Fix` テスト失敗時の自動修復に失敗することがある不具合を修正しました。
+- `Fix` テスト対象指定パネルで制御文字等を入力すると、パネルが開けなくなることがあったので修正しました。
+- `Fix` 環境変数HTTP_PROXY、HTTPS_PROXY、NO_PROXYが指定されているとMagic Pod Desktopが正常に動作しない不具合を修正しました。
+
+### ブラウザテスト
+
+- `New` [BrowserStack](https://www.trident-qa.com/magic-pod-browserstack-batch-run-browser/)/[SauceLabs](https://www.trident-qa.com/magic-pod-saucelabs-batch-run-browser/)を使った、画面からの一括テスト実行/Web API実行/スケジュール実行が可能になりました。([#170](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/170))
+- `New` Chromium Edgeを使ったテストが可能になりました。([#150](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/150))
+  - Windows版とMac版の両方に対応しています。
+- `New` magic_pod_config.jsonに[driverExecutableDir](https://www.trident-qa.com/magic-pod-web-test-advanced/#old_browser)を設定することで、Magic Pod Desktopで通常サポートされていないバージョンのブラウザでもテストが可能になりました。
+
 ## バージョン0.55.0(2020/6/13)
 
 ### 全般
