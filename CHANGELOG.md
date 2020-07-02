@@ -1,7 +1,5 @@
 ## バージョン0.56.0(2020/6/28)
 
-### 下位互換性のない変更
-
 ### 全般
 
 - `New` [四則演算](https://github.com/Magic-Pod/japanese-issue-and-doc/wiki/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E4%B8%80%E8%A6%A7)コマンドを追加しました。([#164](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/164))
