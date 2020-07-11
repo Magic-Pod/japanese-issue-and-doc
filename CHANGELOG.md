@@ -1,3 +1,25 @@
+## バージョン0.57.0(2020/7/11)
+
+### 全般
+
+- `New` テストごとのテスト結果一覧画面にも、テストを実行した端末名・iOSバージョン・ブラウザなどのラベルが表示されるようになりました。
+- `New` テスト一結果一覧のラベルで、「環境」と「ブラウザバージョン」の情報が表示されるようになりました。
+- `New` 「画面キャプチャを取得」コマンドの引数に画面キャプチャ名を指定可能になりました。
+- `New` 一括テスト実行結果取得のWeb APIに、パラメータmin_batch_run_numberとmax_batch_run_number、返り値started_atとfinished_atを追加しました。
+- `New` 画面キャプチャダウンロードのWeb APIにパラメータfile_name_body_type、mask_dynamically_changed_areaを追加しました。
+- `New` magic-pod-api-clientのget-screenshotsに、パラメータfile_index_type、file_name_body_type、download_type、mask_dynamically_changed_areaを追加しました。
+- `New` 共有ステップのパラメータ関連の表示を改善しました。
+
+### モバイルアプリテスト
+
+- `New` 1回のスキャンで複数のWebViewが見つかった場合にも、「Web要素をHTMLとしてスキャンする」が正しく動作するようになりました。
+- `New` 「スワイプ」コマンドの座標指定方法が、絶対値指定から「%」指定になりました。
+- `Fix` 「他のアプリを起動(Android)」のコマンドがエラーになることがあったので修正しました。
+
+### ブラウザテスト
+
+- `New` BrowserStack/SauceLabsを使ったテストが、Internet Explorerでも可能になりました。
+
 ## バージョン0.56.0(2020/6/28)
 
 ### 全般
