@@ -7,7 +7,7 @@
 - `New` 「画面キャプチャを取得」コマンドの引数に画面キャプチャ名を指定可能になりました。
 - `New` テスト一括実行結果取得のWeb APIに、パラメータmin_batch_run_numberとmax_batch_run_number、返り値started_atとfinished_atを追加しました。
 - `New` 画面キャプチャダウンロードのWeb APIにパラメータfile_name_body_type、mask_dynamically_changed_areaを追加しました。
-- `New` [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)のhttps://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.57.0.1)で、get-screenshotsにパラメータfile_index_type、file_name_body_type、download_type、mask_dynamically_changed_areaを追加しました。
+- `New` [magic-pod-api-client](https://github.com/Magic-Pod/magic-pod-api-client)の[0.57.0.1](https://github.com/Magic-Pod/magic-pod-api-client/releases/tag/0.57.0.1)で、get-screenshotsにパラメータfile_index_type、file_name_body_type、download_type、mask_dynamically_changed_areaを追加しました。
 - `New` 共有ステップのパラメータ関連の表示を改善しました。
 
 ### モバイルアプリテスト
