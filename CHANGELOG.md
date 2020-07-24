@@ -1,3 +1,39 @@
+## バージョン0.58.0(2020/7/24)
+
+### 下位互換性のない変更
+
+- `New` Windows上のMagicPodDesktop.exeを使ったコマンドライン実行において、OSのプロキシ設定を利用しないようにしました。
+  - この処理が原因でテストがいつまでも終了しないことがあるためです。
+  - Windows上のMagicPodDesktop.exeコマンドライン実行でプロキシサーバを利用する必要がある場合は、[magic_pod_config.jsonで直接指定](https://www.trident-qa.com/magic-pod-proxy/)してください。
+- `Fix` iOSアプリの「表示されるまでスワイプ」が長時間続いたり、間違った方向にスワイプされたりする問題を修正しました。
+  - 今回の修正により、「表示されるまでスワイプ」の動きが変わるケースがあります。
+
+### 全般
+
+- `New` 「日時計算」コマンドの「言語設定」で「中国語」を選択可能になりました。
+- `Fix` 「四則演算」コマンドのパラメータに変数を指定できない不具合を修正しました。
+
+### モバイルアプリテスト
+
+- `New` 「シェイク」コマンドを追加しました。([#168](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/168))
+  - 「エミュレータ」「シミュレータ」で利用できます。
+- `New` 「長押し & 移動」コマンドを追加しました。([#158](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/158))
+- `New` テスト対象指定パネルで「アプリのタイムゾーン」を指定可能になりました。([#180](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/180))
+- `New` テスト対象指定パネルの「端末の言語」で「中国語」を選択可能になりました。([#182](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/182))
+- `New` 「WebView要素をHTMLとしてスキャンする」をオフにしてスキャンしたUIをオンで再アップロードした場合の挙動を改善しました。([#174](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/174))
+- `New` Remote TestKitを使ったテスト一括実行の画面キャプチャが、FLAG_SECUREが有効なAndroidアプリでも取得可能になりました。
+- `New` ローカルPCのiOSシミュレータに、Xcode11.6、iOS13.6を利用可能になりました。
+- `New` Remote TestKitのAndroidテストで使用するAppiumのバージョンを[1.17.1](https://github.com/appium/appium/releases/tag/v1.17.1)にしました。
+- `New` テストのタイムアウトエラーが出にくいようにしました。
+- `New` サポート対象バージョンであるJava8以外を使っている場合でも、Magic Pod Desktopがエラーを出さない様にしました。
+- `New` Appファイルのクラウドアップロードにおいて、.zipファイル内の.appファイル名が英数字以外でもアップロード可能になりました。
+- `Fix` WebView関連のコマンドの速度が遅くなっていたので修正しました。
+
+### ブラウザテスト
+
+- `New` デスクトップChromeのモバイルエミュレーション機能を使い、モバイルWebサイトのテスト作成・実行が可能になりました。
+- `Fix` 全角文字を含む属性名が含まれるWebページのUIスキャンがエラーになる不具合を修正しました。
+
 ## バージョン0.57.0(2020/7/11)
 
 ### 全般
