@@ -16,7 +16,7 @@
 
 - `New` 「ショートカットキー入力」コマンドを追加しました。([#194](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/194))
 - `New` 特別な変数として、「OS」「DEVICE_TYPE」を利用可能になりました。
-- `New` Windows版Magic Pod Desktopインストール時の、Windowsの警告メッセージが出なくなりました。([#136](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/136))
+- `New` Windows版Magic Pod Desktopインストール時の、OSの警告メッセージが出なくなりました。([#136](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/136))
 - `Fix` 画面キャプチャ範囲「HTML」の画面キャプチャがWindows上のChromeでうまくとれないことがあったので修正しました。
 
 ## バージョン0.58.0(2020/7/24)
