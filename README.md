@@ -1,3 +1,6 @@
-Magic Podに関するバグ報告、質問、機能要望等やりとりや、各種ドキュメントのための日本語ページです。投稿は[Issues](https://github.com/Magic-Pod/japanese-issue-board/issues)から。
+Magic Podに関する機能要望やリリース情報、各種ドキュメントのための日本語ページです。
 
-- Issueはどなたでも書き込めます。
+
+- [機能要望・不具合報告・質問](https://github.com/Magic-Pod/japanese-issue-board/issues)
+- [リリースノート](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/CHANGELOG.md)
+- [今後の機能追加予定](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/UPCOMING_FEATURES.md)
