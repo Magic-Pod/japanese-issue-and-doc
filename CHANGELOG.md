@@ -15,8 +15,7 @@
 ### ブラウザテスト
 
 - `New` 「ショートカットキー入力」コマンドを追加しました。([#194](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/194))
-- `New` 特別な変数として、「DEVICE_TYPE」を利用可能になりました。
-- `New` ブラウザテストの特別な変数として「OS」を利用可能になりました。
+- `New` 特別な変数として、「OS」「DEVICE_TYPE」を利用可能になりました。
 - `New` Windows版Magic Pod Desktopインストール時の、Windowsの警告メッセージが出なくなりました。([#136](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/136))
 - `Fix` 画面キャプチャ範囲「HTML」の画面キャプチャがWindows上のChromeでうまくとれないことがあったので修正しました。
 
