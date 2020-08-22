@@ -5,7 +5,7 @@
 - `New` テストケースに「ラベル」を付与できるようになりました。([#121](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/121))
 - `New` 一括実行の際に、特定のラベルを持つテストだけを対象にしたり、特定のラベルを持つテストを対象から除外したりできるようになりました。([#121](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/121))
 - `New` 「正規表現に一致した部分を保存」コマンドを追加しました。([#205](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/205))
-- `New` プランページからスタンダードプランを申し込んでも有効にならなくなっていたので修正しました。
+- `` プランページからスタンダードプランを申し込んでも有効にならなくなっていたので修正しました。
 
 ## バージョン0.59.0(2020/8/8)
 
