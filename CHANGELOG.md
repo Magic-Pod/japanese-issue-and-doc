@@ -137,6 +137,7 @@
 ### ブラウザテスト
 
 - `New` Safariを使ったローカルPCテストが可能になりました。([#129](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/129))
+- `New` Chrome84に対応しました。
 
 ## バージョン0.54.2(2020/6/7)
 
