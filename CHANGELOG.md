@@ -25,7 +25,6 @@
   - クラウド、ローカルPC、SauceLabs: [1.18.1](https://github.com/appium/appium/releases/tag/v1.18.1)に更新しました。
   - BrowserStack: iOSを[1.18.0](https://github.com/appium/appium/releases/tag/v1.18.0)に更新しました。
 - `New` ローカルPCのiOSシミュレータに、Xcode11.6、Xcode12(ベータ)、iOS13.7、iOS14.0(ベータ)を利用可能になりました。
-- `New` クラウド端末が外部に接続する際に利用するIPの範囲を207.254.20.32/27にしました。
 
 ### ブラウザテスト
 
