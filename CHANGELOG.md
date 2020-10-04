@@ -2,7 +2,7 @@
 
 ### 全般
 
-- `New` BrowserStack Localを使い、プライベート環境のサーバに対するBrowserStackテストが可能になりました。
+- `New` [BrowserStack Local](https://www.trident-qa.com/magic-pod-local-server-access/#browserstack)を使い、プライベート環境のサーバに対するBrowserStackテストが可能になりました。
 - `New` 自動修復の精度を改善しました。
 - `Fix` Magic PodのWebサーバが重くなることがある問題に対する各種改善を実施しました。
 - `Fix` 「四則演算」コマンドに0を指定するとうまく動作しない不具合を修正しました。
