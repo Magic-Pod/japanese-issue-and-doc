@@ -1,3 +1,18 @@
+## バージョン0.66.0(2020/11/14)
+
+### 全般
+
+- `New` テスト編集画面にて、複数のUIを別セクションに一括で移動できるようになりました。([#101](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/101)、[#201](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/201))
+- `New` magic_pod_config.jsonのlanguageで、Magic Pod Desktopコマンドライン実行時の表示言語を指定可能になりました。
+- `New` 自動修復の各種精度改善を行いました。
+
+### モバイルアプリテスト
+
+- `New` ローカルPCのiOSシミュレータテストで、「iPhone 12」シリーズなどの新しい端末を指定可能になりました。
+- `Fix` Xcode12を使ったローカルPCのiOSテストで「-ios class chain」ロケータがうまく動作しないケースがあったので、 この場合xpathを使うようにしました。
+- `Fix` WebViewをHTMLとしてスキャンしているテストの失敗時UIツリーが開けないことがある問題を改善しました。
+- `Fix` 一括実行の端末パターン/ブラウザパターンに日本語が含まれていると、SauceLabsのモバイル実機テストがエラーになっていたので修正しました。
+
 ## バージョン0.65.0(2020/11/1)
 
 ### 下位互換性のない変更
