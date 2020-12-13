@@ -2,7 +2,7 @@
 
 ### 全般
 
-- `New` SAMLによるシングルサインオンでMagic Podにログインできるようになりました。(エンタープライズプランのみ)([#229](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/229))
+- `New` [SAMLによるシングルサインオン](https://www.trident-qa.com/saml-auth-setting/)でMagic Podにログインできるようになりました。(エンタープライズプランのみ)([#229](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/229))
 - `New` プロジェクト複製時に、多言語データパターンも複製されるようになりました。(有料プランのみ)
 - `New` 自動修復の各種精度改善と不具合修正を実施しました。
 - `Fix` 失敗したテスト一括実行結果の書き込みに失敗することがあったので修正しました。
