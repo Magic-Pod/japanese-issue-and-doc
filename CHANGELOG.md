@@ -3,7 +3,7 @@
 ### 全般
 
 - `New` 「二段階認証用のパスコードを生成して保存」コマンドを追加しました。
-- `New` ブラウザからMagic Pod Desktopを起動した場合に、ログイン処理が自動で行われるようになりました。([#216](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/216), [#134](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/134))
+- `New` ブラウザからMagic Pod Desktopを起動した場合に、ログイン処理が自動で行われるようになりました。([#216](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/216), [#134](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/134), [#79](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/79))
 - `New` 自動修復の挙動を改善しました。
 - `New` GitHubログインの初回画面のデザインを改善しました。
 - `Fix` プロジェクトの「更新」権限が無いと共有ステップを複製できない不具合を修正しました。
