@@ -14,7 +14,7 @@
 
 ### モバイルアプリテスト
 
-- `New` テスト作成中にクラウド端末を横向きにできるようになりました。([#148](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/148))
+- `New` 画面上の回転ボタンを使い、テスト作成中にクラウド端末を横向きにできるようになりました。([#148](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/148))
   - 横長固定のアプリの画面キャプチャがクラウド端末で取得できない問題も解消されています。
 - `New` 利用しているAppiumのバージョンを更新しました。
   - BrowserStack: [1.19.1](https://github.com/appium/appium/releases/tag/v1.19.1)に更新しました。
