@@ -1,3 +1,36 @@
+## バージョン0.70.0(2021/1/16)
+
+### 全般
+
+- `New` 「二段階認証用のパスコードを生成して保存」コマンドを追加しました。
+- `New` ブラウザからMagic Pod Desktopを起動した場合に、ログイン処理が自動で行われるようになりました。([#216](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/216), [#134](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/134))
+- `New` 自動修復の挙動を改善しました。
+- `New` GitHubログインの初回画面のデザインを改善しました。
+- `Fix` プロジェクトの「更新」権限が無いと共有ステップを複製できない不具合を修正しました。
+- `Fix` 画面キャプチャのサイズが大きいとAIロケータによる要素検索が失敗することがあったので修正しました。
+- `Fix` テスト一括実行画面からの、複数端末/ブラウザパターンのテスト実行でサーバエラーになることがあったので修正しました。
+- `Fix` HTMLが名前空間つきのタグや属性を含んでいると画面スキャンに失敗することがあったので修正しました。
+- `Fix` UI上で前面にあるべき要素が背面に隠れてしまう問題に対する改善を実施しました。
+
+### モバイルアプリテスト
+
+- `New` テスト作成中にクラウド端末を横向きにできるようになりました。([#148](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/148))
+  - 横長固定のアプリの画面キャプチャがクラウド端末で取得できない問題も解消されています。
+- `New` 利用しているAppiumのバージョンを更新しました。
+  - BrowserStack: [1.19.1](https://github.com/appium/appium/releases/tag/v1.19.1)に更新しました。
+  - SauceLabs: [1.19.0](https://github.com/appium/appium/releases/tag/v1.19.0)に更新しました。
+- `New` Remote TestKitクライアントから起動したAndroid端末を使って、FLAG_SECUREなアプリの画面キャプチャを取得可能になりました。
+  - 仮想adbを有効化し、画像転送モードを「標準モード」にする必要があります。
+- `New` 「スワイプ」コマンドのパラメータの初期値を、「X:50%、Y:50%、方向:0°」にしました。([#224](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/224))
+- `Fix` WebViewをHTMLとしてスキャンしている画面でテスト失敗した場合に、テスト結果画面で失敗時UIツリーを表示できないことがあったので修正しました。
+- `Fix` 「指定位置タップ」で対象要素の領域外をタップした際にエラーになることがあったので修正しました。
+
+### ブラウザテスト
+
+- `New` 特別な変数として「BASE_URL」を利用可能になりました。([#257](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/257))
+- `New` 「クラウド」と「ローカルPC」(現在Mac上のみ)のChromeテスト作成・実行時に、サイトに接続するための「クライアント証明書」を指定可能になりました。([#253](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/253))
+- `New` 「クリックしてファイルアップロード」の対象にinput要素以外を指定しても、付近のinput要素を探して適切にアップロード処理を行うようになりました。([#255](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/255))
+
 ## バージョン0.69.0(2020/12/26)
 
 ### 全般
