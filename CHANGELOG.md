@@ -3,7 +3,7 @@
 ### 全般
 
 - `New` UI要素の属性の、確認/待機/変数保存/条件分岐コマンドを追加しました。([#268](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/268))
-- `New` 「画面キャプチャを取得」コマンドがネットワークエラーなどで失敗した場合に何回かリトライするようにしました。([#295](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/295))
+- `Fix` 「画面キャプチャを取得」コマンドがネットワークエラーなどで画面キャプチャを取得できないことがある問題を改善しました。([#295](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/295))
 - `Fix` magic_pod_config.jsonの値が不正だとサーバーエラーになることがあったので修正しました。
 - `Fix` 対象となるテストが1つもないと、テストの一括実行がいつまでも終了しない不具合を修正しました。([#278](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/278))
 - `Fix` Magic PodのWebサーバが重くなることがある問題に対する改善を実施しました。
