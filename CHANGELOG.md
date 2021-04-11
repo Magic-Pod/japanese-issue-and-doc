@@ -1,3 +1,30 @@
+## バージョン0.76.0(2021/4/11)
+
+### 全般
+
+- `New` UI要素の属性の、確認/待機/変数保存/条件分岐コマンドを追加しました。([#268](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/268))
+- `New` 「画面キャプチャを取得」コマンドがネットワークエラーなどで失敗した場合に何回かリトライするようにしました。([#295](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/295))
+- `Fix` magic_pod_config.jsonの値が不正だとサーバーエラーになることがあったので修正しました。
+- `Fix` 対象となるテストが1つもないと、テストの一括実行がいつまでも終了しない不具合を修正しました。([#278](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/278))
+- `Fix` Magic PodのWebサーバが重くなることがある問題に対する改善を実施しました。
+
+### モバイルアプリテスト
+
+- `New` [SauceLabsの新しいAPIを使ったテスト](https://www.trident-qa.com/magic-pod-saucelabs-batch-run/)に対応しました。
+- `New` SauceLabsの新しいAPIを使った場合に、テスト結果画面にAppiumログが表示されるようになりました。([#238](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/238))
+- `New` 利用しているAppiumのバージョンを更新しました。
+  - Remote TestKit: Androidを[1.20.2](https://github.com/appium/appium/releases/tag/v1.20.2)に更新しました。
+  - Remote TestKit(オンプレミス): [1.20.2](https://github.com/appium/appium/releases/tag/v1.20.2)に更新しました。
+- `Fix` Androidのテストにて、テスト中に他のアプリに遷移する場合に、要素を見つけられないことがあったので修正しました。
+
+### ブラウザテスト
+
+- `New` SauceLabsのテスト結果画面にSeleniumログが表示されるようになりました。([#238](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/238))
+- `New` 「モバイルエミュレーション」のテスト実行設定にて、「端末の向き」を指定可能になりました。([#270](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/270))
+- `Fix` 「クライアント証明書」を指定してテスト実行していると、画面キャプチャの取得に失敗することがあったので修正しました。
+- `Fix` 「クラウド」環境で、ブラウザ起動時に正しいURLが開かないことがあったので修正しました。
+- `Fix` ime-mode属性がactiveの要素に対するテキスト入力がInternet Explorerでうまく動作しないことがあったので修正しました。
+
 ## バージョン0.75.0(2021/3/28)
 
 ### 全般
