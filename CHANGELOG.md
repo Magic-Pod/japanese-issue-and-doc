@@ -1,3 +1,22 @@
+## バージョン0.77.0(2021/4/24)
+
+### 全般
+
+- `New` 今後新しく作成した無料プランの組織では、テストケース作成数の上限数は10になりました。
+  - 既存の無料プランの組織では引き続き20が上限です。
+- `New` [画像差分がないか確認](https://www.trident-qa.com/magic-pod-visual-diff/)コマンドを追加しました。([#211](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/211))
+- `New` 組織の「更新」権限を持つユーザーが、「利用状況」ページで現在のテストケース数合計などを確認できるようになりました。
+- `New` テスト実行時の設定で、[待機ポリシー](https://www.trident-qa.com/magic-pod-wait-policy/)を指定可能になりました。([#64](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/64))
+- `New` 組織アイコンの表示を改善しました。([#299](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/299))
+- `New` スケジュール設定されたテスト一括実行が、最後にスケジュールを更新したユーザーの権限で実行されるようになりました。([#303](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/303))
+- `Fix` テスト失敗時の自動修復に失敗することがある不具合を修正しました。
+
+### モバイルアプリテスト
+
+- `New` iOSクラウド端末でバージョン14.4と14.2を選べるようになりました。
+  - 14.4と14.2では、高速起動する端末は「iPhone 12」になりました。(13.4以前では「iPhone 8」のままです)
+- `Fix` アプリのサイズが大きい場合に、外部クラウドでのテスト実行に失敗するようになっていたので修正しました。
+
 ## バージョン0.76.0(2021/4/11)
 
 ### 全般
