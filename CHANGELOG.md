@@ -6,7 +6,7 @@
   - 既存の無料プランの組織では引き続き20が上限です。
 - `New` 組織の「更新」権限を持つユーザーが、「利用状況」ページで現在のテストケース数合計などを確認できるようになりました。
 - `New` [画像差分がないか確認](https://www.trident-qa.com/magic-pod-visual-diff/)コマンドを追加しました。([#211](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/211))
-  - 現在のプランによって何ステップまでが画像差分確認コマンドを追加できるかが異なるので、「[プラン内容](https://www.magic-pod.com/pricing)」や「利用状況」のページでご確認ください。
+  - 何ステップまで画像差分確認コマンドを追加できるかはプランによって異なるので、「[プラン内容](https://www.magic-pod.com/pricing)」や「利用状況」のページでご確認ください。
 - `New` テスト実行時の設定で、[待機ポリシー](https://www.trident-qa.com/magic-pod-wait-policy/)を指定可能になりました。([#64](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/64))
 - `New` 組織アイコンの表示を改善しました。([#299](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/299))
 - `New` スケジュール設定されたテスト一括実行が、最後にスケジュールを更新したユーザーの権限で実行されるようになりました。([#303](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/303))
