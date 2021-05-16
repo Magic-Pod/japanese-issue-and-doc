@@ -1,3 +1,22 @@
+## バージョン0.78.0(2021/5/15)
+
+### 全般
+
+- `New` 2つのUIを選んで統合できるUI整理の機能を追加しました。
+- `New` テスト実行ログに実行時間の情報が表示されるようになりました。([#166](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/166))
+- `New` テスト結果画面の表示とテスト失敗時UIツリー表示画面の使い勝手・各種問題を改善しました。([#307](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/307))
+- `New` メンバー削除や権限変更の結果、そのユーザーのスケジュール実行が無効になってしまうことがあったため、無効にならないようにするか、無効になる場合には警告を出すようにしました。([#303](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/303))
+- `Fix` テストケースの数が多いと一括実行の開始に失敗することがある問題を改善しました。
+- `Fix` テスト編集画面のUIやテストステップのドラッグ&ドロップがうまく動作しないことがあったので修正しました。([#274](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/274))
+
+### モバイルアプリテスト
+
+- `New` iOSクラウド端末の手動のスワイプ・スクロール操作が行いやすくなりました。
+- `New` ローカルPCのiOSシミュレータに、Xcode12.5、iOS14.5を利用可能になりました。
+- `New` 利用しているAppiumのバージョンを[1.21.0](https://github.com/appium/appium/releases/tag/v1.21.0)にしました。
+- `Fix` iOS14のクラウド端末で、テスト作成中に端末の画面が固まることがあったので修正しました。
+- `Fix` 一部のケースで、「WebViewをHTMLとしてスキャンする」を有効にしてAndroidのChromeアプリの画面キャプチャを行うと失敗するようになっていたので修正しました。
+
 ## バージョン0.77.0(2021/4/24)
 
 ### 全般
