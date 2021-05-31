@@ -2,7 +2,7 @@
 
 ### 全般
 
-- `New` 自分のユーザー名を変更できるようになりました。
+- `New` 自分のユーザー名を変更できるようになりました。([#239](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/239))
 - `New` 統合・整理可能なUIを自動で計算する「自動UI整理」の機能を追加しました。
 - `New` サーバの異常終了などが原因で長時間たっても終了しないテストは、タイムアウトエラーとなるようにしました。([#146](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/146))
 - `Fix` Mac向けのMagic Pod Desktop.appがセキュリティソフトに問題のあるファイルとして検出されることがあったので修正しました。
