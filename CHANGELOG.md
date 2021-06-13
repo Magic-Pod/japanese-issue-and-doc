@@ -20,7 +20,7 @@
 - `New` Androidクラウド端末としてarm64-v8aのエミュレータを指定可能になりました。([#314](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/314))
   - 通常のAndroid実機で使うのと同じarm用APKファイルをご利用ください。(x86用にビルドしたAPKファイルは動作しない場合があります)
   - バージョンとしては「S(プレビュー)」のみ対応しています。
-- `New` BrowserStackで使用する。Appiumのバージョンを[1.21.0](https://github.com/appium/appium/releases/tag/v1.21.0)にしました。
+- `New` BrowserStackで使用するAppiumのバージョンを[1.21.0](https://github.com/appium/appium/releases/tag/v1.21.0)にしました。
 - `Fix` Androidのテストで「アプリを終了」コマンドを実行すると、ケースによってはテスト対象アプリの情報がクリアされるようになっていたので修正しました。
 
 ### ブラウザテスト
