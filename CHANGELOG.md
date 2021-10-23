@@ -119,7 +119,7 @@
 
 ### モバイルアプリテスト
 
-- `New` Android端末の位置情報をテスト実行時設定で指定可能になりました。
+- `New` Android端末の位置情報をテスト実行時設定で指定可能になりました。([#115](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/115))
 - `New` Androidのテストでaabファイルを指定できるようになりました。
    - 現在クラウド端末とBrowserStack環境でのみ利用可能です。
 - `Fix` iOSで「アプリ情報をクリア」を指定すると端末の起動に失敗することがある問題に対する改善を実施しました。([#315](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/315))
