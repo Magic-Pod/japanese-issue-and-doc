@@ -10,7 +10,7 @@
 - `New` クラウド端末・ブラウザが外部に接続する際のIPをユーザー独自のものにできる、[ユーザ固定IP](https://help.trident-qa.com/magic-pod-dedicated-source-ip/)の機能を追加しました。(エンタープライズプランのみ)([#316](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/316))
 - `New` 各種データの「作成者」「更新者」「作成日」「更新日」を確認できるようになりました。([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
 - `New` 改行文字を含むロケータをユーザーが独自に追加できるようになりました。
-- `New` 旧無料プランの組織のプランデータを[新無料プラン](https://www.trident-qa.com/news/infomation/magic-pod-new-feature-and-plan.html)に移行しました。
+- `New` 旧無料プランの組織のプランデータを[新無料プラン](https://www.trident-qa.com/news/infomation/magic-pod-new-feature-and-plan)に移行しました。
 - `Fix` テキストに改行文字を含む要素の取得やテキストの確認がうまくいかないことがあったので修正しました。([#294](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/294), [#372](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/372))
 - `Fix` 画像差分の承認時にサーバーエラーが出ることがあったので修正しました。
 - `Fix` テスト編集画面で「Web APIコール」コマンドの編集ダイアログを開くのに時間がかかることがあったので修正しました。
