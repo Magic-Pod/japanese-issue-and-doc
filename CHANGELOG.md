@@ -8,6 +8,8 @@
 ### 全般
 
 - `New` クラウド端末・ブラウザが外部に接続する際のIPをユーザー独自のものにできる、[ユーザ固定IP](https://help.trident-qa.com/magic-pod-dedicated-source-ip/)の機能を追加しました。(エンタープライズプランのみ)([#316](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/316))
+- `New` 問い合わせメールの書式や形式を一新しました。
+  - 初回の問い合わせ内容が、問い合わせをしたユーザーにも送信されるようになりました。([#375](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/375))
 - `New` 各種データの「作成者」「更新者」「作成日」「更新日」を確認できるようになりました。([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
 - `New` 改行文字を含むロケータをユーザーが独自に追加できるようになりました。([#360](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/360))
 - `New` 旧無料プランの組織のプランデータを[新無料プラン](https://www.trident-qa.com/news/infomation/magic-pod-new-feature-and-plan)に移行しました。
