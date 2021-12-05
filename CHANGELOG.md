@@ -1,3 +1,24 @@
+## バージョン0.92.0(2021/12/5)
+
+### 全般
+
+- `New` ヘルプページのデザインを刷新しました。
+- `New` ローカルPCテストでmagic_pod_config.jsonのinternalAppiumPort及びinternalMagicPodPortに0を指定すると、空いているポートを自動的に探して使うようになりました。([#266](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/266))
+
+### モバイルアプリテスト
+
+- `New` 利用しているAppiumのバージョンを[1.22.1](https://github.com/appium/appium/releases/tag/v1.22.1)にしました。
+- `New` 「表示されるまでスワイプ」コマンドで、どの領域をスワイプするかを指定できるようになりました。([#326](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/326))
+- `Fix` 「長押し」コマンドが失敗することがあったので修正しました。
+- `Fix` Androidクラウド端末の安定性を強化しました。
+- `Fix` iOSのUI解析に失敗することがあったので修正しました。
+- `Fix` 条件によっては、iOSクラウド端末の起動に失敗するようになっていたので修正しました。
+
+### ブラウザテスト
+
+- `Fix` 「テキスト入力」コマンドが失敗することがあったので修正しました。
+- `Fix` 「表示されるまでページ全体をスクロール」「表示されるまでUI要素をスクロール」が正しく動作しないことがあったので修正しました。
+
 ## バージョン0.91.0(2021/11/21)
 
 ### 全般
