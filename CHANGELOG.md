@@ -2,7 +2,7 @@
 
 ### 全般
 
-- `New` ヘルプページのデザインを刷新しました。
+- `New` [ヘルプページ](https://support.magic-pod.com/hc)のデザインを刷新しました。
 - `New` ローカルPCテストでmagic_pod_config.jsonのinternalAppiumPort及びinternalMagicPodPortに0を指定すると、空いているポートを自動的に探して使うようになりました。([#266](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/266))
 
 ### モバイルアプリテスト
