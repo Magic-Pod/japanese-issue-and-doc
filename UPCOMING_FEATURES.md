@@ -5,8 +5,9 @@
 - テストケースの実行設定をDB保存し、テスト編集画面と一括実行画面で使いまわせるように([#281](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/281))
 - クラウドブラウザのEdge/Firefox対応([#170](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/170))
 - 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
-- テストケースの履歴管理
-- テストケースのバックアップ、ブランチ管理
+- テストケースの履歴管理([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
+- テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
+- テストケースのブランチ管理
 - クラウド端末が最大数に達した場合のキューイング([#284](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/284))
 - テストの前処理・後処理([#196](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/196))
 - Javascriptで好きなロジックを書ける([#331](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/331))
