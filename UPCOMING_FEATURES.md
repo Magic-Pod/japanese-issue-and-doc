@@ -8,8 +8,8 @@
 - テストケースの履歴管理
 - テストケースのバックアップ、ブランチ管理
 - クラウド端末が最大数に達した場合のキューイング
-- テストの前処理・後処理
-- Javascriptで好きなロジックを書ける
+- テストの前処理・後処理([#196](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/196))
+- Javascriptで好きなロジックを書ける([#331](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/331))
 - アプリテストとブラウザテストを1つの一括実行内で混在させたい([#323](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/323))
 - 共有ステップの編集画面でも端末を操作したい
 - Flutter対応
