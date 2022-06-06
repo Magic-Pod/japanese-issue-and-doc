@@ -17,8 +17,8 @@
 - テスト結果動画([#214](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/214))
 - 条件分岐コマンドのUX改善(条件分岐終わりを入れるのが不便、どこまでが分岐か見にくい)([#99](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/99))
 - for文、foreach文、while文([#62](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/62)、[#63](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/63))
-- 監査ログ(エンタープライズプラン)
 - MagicPod内でメールサーバを提供してメールテストをもっと簡単に
+- 監査ログ(エンタープライズプラン)
 - モバイルブラウザ対応(クラウド端末エミュレータ)
 - ストアからアプリをダウンロードしてテスト
 - 外部のテスト管理ツールとの連携
