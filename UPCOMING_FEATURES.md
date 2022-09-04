@@ -2,7 +2,6 @@
 
 上にあるものほど優先度が高くなっています。
 
-- クラウドブラウザのEdge/Firefox対応([#170](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/170))
 - 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
 - テストケースの履歴管理([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
 - テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
@@ -82,4 +81,5 @@
 - [済]手動追加Locatorの自動修復
 - [済]モバイルブラウザ対応(BrowserStack/SauceLabsの実機)
 - [済]テストケースの実行設定をDB保存し、テスト編集画面と一括実行画面で使いまわせるように
+- [済]クラウドブラウザのEdge/Firefox対応
 
