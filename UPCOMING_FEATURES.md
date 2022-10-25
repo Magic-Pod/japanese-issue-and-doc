@@ -12,9 +12,9 @@
 - for文、foreach文、while文([#62](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/62)、[#63](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/63))
 - 共有ステップの編集画面でも端末を操作したい([#300](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/300))
 - Flutter対応([#242](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/242))
+- Javascriptで好きなロジックを書ける([#331](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/331))
 - テスト結果動画([#214](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/214))
 - 条件分岐コマンドのUX改善(条件分岐終わりを入れるのが不便、どこまでが分岐か見にくい)([#99](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/99))
-- Javascriptで好きなロジックを書ける([#331](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/331))
 - MagicPod内でメールサーバを提供してメールテストをもっと簡単に
 - 監査ログ(エンタープライズプラン)
 - モバイルブラウザ対応(クラウド端末エミュレータ)
