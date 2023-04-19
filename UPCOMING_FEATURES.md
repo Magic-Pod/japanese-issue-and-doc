@@ -4,9 +4,9 @@
 
 - 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
 - テストケースの履歴管理([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
-- テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
 - Flutter対応([#242](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/242))
 - テストケースのブランチ管理
+- テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
 - クラウド端末が最大数に達した場合のキューイング([#284](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/284))
 - テストの前処理・後処理([#196](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/196))
 - アプリテストとブラウザテストを1つの一括実行内で混在させたい([#323](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/323))
