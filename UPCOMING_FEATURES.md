@@ -2,7 +2,6 @@
 
 上にあるものほど優先度が高くなっています。
 
-- Flutter対応([#242](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/242))
 - テストケースのブランチ管理
 - 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
 - テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
@@ -82,4 +81,6 @@
 - [済]テストケースの実行設定をDB保存し、テスト編集画面と一括実行画面で使いまわせるように
 - [済]クラウドブラウザのEdge/Firefox対応
 - [済]テストケースの履歴管理([#132](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/132))
+- [済]Flutter対応([#242](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/242))
+
 
