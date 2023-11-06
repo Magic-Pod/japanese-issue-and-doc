@@ -3,7 +3,7 @@
 上にあるものほど優先度が高くなっています。
 
 - テストケースのブランチ管理
-- else文
+- else文([#99](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/99))
 - 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
 - テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
 - クラウド端末が最大数に達した場合のキューイング([#284](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/284))
