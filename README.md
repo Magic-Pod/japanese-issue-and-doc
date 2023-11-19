@@ -1,4 +1,4 @@
-*You can check English issues on https://github.com/Magic-Pod/issues.
+_You can check English issues on https://github.com/Magic-Pod/issues._
 
 MagicPodに関する機能要望やリリース情報、各種ドキュメントのための日本語ページです。
 
