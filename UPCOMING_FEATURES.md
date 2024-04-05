@@ -1,33 +1,11 @@
 # 実装予定の機能リスト
 
-上にあるものほど優先度が高くなっています。
-
-- テストケースのブランチ管理
-- else文([#99](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/99))
-- 自動修復がもっと発動するように(単体実行での自動修復)([#269](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/269))
-- テストケースのバックアップ([#100](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/100))
-- クラウド端末が最大数に達した場合のキューイング([#284](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/284))
-- テストの前処理・後処理([#196](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/196))
-- アプリテストとブラウザテストを1つの一括実行内で混在させたい([#323](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/323))
-- for文、foreach文、while文([#62](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/62)、[#63](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/63))
-- 共有ステップの編集画面でも端末を操作したい([#300](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/300))
-- Javascriptで好きなロジックを書ける([#331](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/331))
-- テスト結果動画([#214](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/214))
-- 条件分岐コマンドのUX改善(条件分岐終わりを入れるのが不便、どこまでが分岐か見にくい)([#99](https://github.com/Magic-Pod/japanese-issue-and-doc/issues/99))
-- MagicPod内でメールサーバを提供してメールテストをもっと簡単に
-- 監査ログ(エンタープライズプラン)
-- モバイルブラウザ対応(クラウド端末エミュレータ)
-- ストアからアプリをダウンロードしてテスト
-- 外部のテスト管理ツールとの連携
-- 外部クラウドでのテスト作成
-- 共有ステップの引数をロケータ内から参照可能に
-- 複数種類端末一括実行のテスト結果UIを一覧で並べて見られる
-- 画像で要素を検索するロケータ(Sikuliみたいなやつ)
-- プログラミング的な柔軟な処理の実現
-- プログラミング的な柔軟な処理の実現(継承元差し替え)
-- ローカル実行でのWindows・Linuxサポート（モバイル版)
+実装予定の機能リストは[MagicPod Product Portal](https://portal.magicpod.com/)に移行しました。
+`IN DEVELOPMENT`タブには現在開発中の機能一覧を、`UNDER CONSIDERATION`タブには今後実装予定の機能一覧をそれぞれ記載しています。
 
 # 対応したもの
+
+以下のリストは今後更新されません。[MagicPod Product Portal](https://portal.magicpod.com/)の`LAUNCHED`タブを参照してください。
 
 - [済]各種Assertコマンドのサポート(テキスト、Visible、Enabled)
 - [済]各種アクションコマンドのサポート(スワイプ、ダブルタップ等)

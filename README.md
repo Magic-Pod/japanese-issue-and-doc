@@ -1,7 +1,4 @@
-_You can check English issues on https://github.com/Magic-Pod/issues._
+リリース予定及び機能要望は[MagicPod Product Portal](https://portal.magicpod.com/)に移行しました。今後は本リポジトリの更新は行われません。
 
-MagicPodに関する機能要望やリリース情報、各種ドキュメントのための日本語ページです。
-
-- [機能要望・不具合報告・質問](https://github.com/Magic-Pod/japanese-issue-board/issues)
+- [今後のリリース、機能要望](https://portal.magicpod.com/)
 - [リリースノート](https://support.magic-pod.com/hc/ja/categories/4415848374553)
-- [今後の機能追加予定](https://github.com/Magic-Pod/japanese-issue-and-doc/blob/master/UPCOMING_FEATURES.md)
